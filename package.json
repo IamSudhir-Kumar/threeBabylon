@@ -1,0 +1,17 @@
+{
+    "name": "three-babylon-configurator",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "three": "^0.150.1",
+        "babylonjs": "^6.10.0",
+        "gsap": "^3.12.2"
+    },
+    "devDependencies": {
+        "vite": "^5.0.0"
+    }
+}
