@@ -115,16 +115,6 @@ class App {
         button.addEventListener("click", async () => {
             if (this.xrExperience) {
                 try {
-                    // Check if devi
-                    // 
-                    // 
-                    // 
-                    // 
-                    // 
-                    // 
-                    // 
-                    // 
-                    // ce supports AR or VR
                     const isARSupported = await navigator.xr?.isSessionSupported?.("immersive-ar");
                     const mode = isARSupported ? "immersive-ar" : "immersive-vr";
                     
